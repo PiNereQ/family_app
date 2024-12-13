@@ -18,12 +18,12 @@ class TileWidget extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Card(
-        elevation: 2,
+        //elevation: 2,
         margin: EdgeInsets.all(deviceWidth(context) * 0.02),
         child: Container(
           padding: EdgeInsets.all(deviceWidth(context) * 0.01),
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(deviceWidth(context) * 0.01),
+            borderRadius: BorderRadius.circular(deviceWidth(context) * 0.001),
             color: Colors.blue.shade50,
           ),
           child: Column(
